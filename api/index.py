@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 bible_verses = [
-    {"reference": "john+3:16", "text": "For God so loved the world..."},
+    {"reference": "john+3:16", "text": "print('hi sigma...')"},
     {"reference": "Psalm 23:1", "text": "The Lord is my shepherd..."}
 ]
 
